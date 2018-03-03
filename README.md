@@ -3,7 +3,9 @@ Uses Java, Spring, Hibernate and MySQL. NO UI implementation
 
 # To Run the project
 #### 1: Clone the project in desktop and import using an IDE (Eclipse).
-#### 2: Install MySQL database (5.7) and restore the the database from here.
+
+#### 2: Install MySQL database (5.7) and restore the the database from (https://github.com/nishantvodoo/MessageChat/tree/master/MessageChat/mysql)
+
 #### 3: Update the MessageChat project properties file with your MySQL authentication info.
         spring.datasource.url=jdbc:mysql://localhost:3306/chatdatabase    % database name
         spring.datasource.username=root                                   % username to login to the mysql database
