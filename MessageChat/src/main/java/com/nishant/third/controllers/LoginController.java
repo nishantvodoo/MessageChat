@@ -54,11 +54,11 @@ public class LoginController
 //		user.setEmail(email);
 		
 		//Dummy Data
-		user.setUsername("user16");
+		user.setUsername("user");
 		user.setPassword("P@ssword1");
-		user.setFirstName("Firstname");
-		user.setLastName("Lastname");
-		user.setEmail("user16@lsu.edu");
+		user.setFirstName("userF");
+		user.setLastName("userL");
+		user.setEmail("user@lsu.edu");
 		
 		return registrationService.RegisterUser(user);
 	}
