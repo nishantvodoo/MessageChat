@@ -45,6 +45,8 @@ All new users are assigned a "User" role. Standard email and username format is 
 http://localhost:8080/login
 
 The in-built Spring functionality is used to authenticate and log the user in. 
+To login as ADMIN role use Username: "admin" and Password: "P@ssword1"
+To login as User role use Username: "user" and Password: "P@ssword1"
 
 #### 3: To list all users
 http://localhost:8080/home/list
